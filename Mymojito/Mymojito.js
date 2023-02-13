@@ -200,8 +200,8 @@ class Mymojito {
   }
 }
 //클라우드 타입에서는 파일을 읽어오는게 아닌 환경변수로 접근한다.
-var app = fs.readFileSync("./app.txt", "utf8");
-var secret = fs.readFileSync("./secret.txt", "utf8");
+// var app = fs.readFileSync("./app.txt", "utf8");
+// var secret = fs.readFileSync("./secret.txt", "utf8");
 var broker = new Mymojito(process.env.app,process.env.secret);
 broker.access_token = await broker.issue_token();
 
