@@ -1,0 +1,14 @@
+node_modules/
+
+mykey.txt
+
+package-lock.json
+
+token.dat
+
+.vscode
+
+
+app.txt
+
+secret.txt
