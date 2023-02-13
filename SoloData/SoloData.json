@@ -1,7 +1,7 @@
 {
-  "host" : "svc.sel3.cloudtype.app",
-  "port": "30375",
+  "host" : "svc.gksl2.cloudtype.app",
+  "port": "30546",
   "user": "root",
-  "password": "0000",
+  "password": "1234",
   "database": "solodb"
 }

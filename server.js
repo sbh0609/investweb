@@ -94,7 +94,7 @@ var html = {
     var date = year + "년" + month + "월" + days + "일 분봉데이터";
     if (day == 6) {
       date =
-        year + "년" + month + "월" + (days - 1).toString() + "일 분봉데이터";
+        year + "년" + month + "월" + (days + 1).toString() + "일 분봉데이터";
     } else if (day == 0) {
       date =
         year + "년" + month + "월" + (days - 2).toString() + "일 분봉데이터";
