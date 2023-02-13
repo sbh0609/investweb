@@ -179,7 +179,7 @@ var html = {
             },
             series: [{
                 name : '분봉데이터',
-                data: [${stock_1m_data}]
+                data: [${stock_1m_data.reverse()}]
             }]
         });</script>
     ${script}
