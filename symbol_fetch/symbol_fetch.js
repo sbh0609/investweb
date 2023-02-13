@@ -9,7 +9,9 @@ const conn = JSON.parse(fs.readFileSync("SoloData/SoloData.json"));
 let connection = createConnection(conn); // DB 커넥션 생성
 
 connection.connect((err) => {
-  if (err) console.log("stock 테이블 저장 실패");
+  if (err) {console.log("stock 테이블 저장 실패");
+  console.log(err);
+  }
   else {
     let create_sql = `CREATE TABLE stock ( 
       ${stock.columns.join(` VARCHAR(20),
