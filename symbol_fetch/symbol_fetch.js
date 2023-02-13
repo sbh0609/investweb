@@ -14,8 +14,8 @@ connection.connect((err) => {
   }
   else {
     let create_sql = `CREATE TABLE stock ( 
-      ${stock.columns.join(` VARCHAR(20),
-      `)} VARCHAR(20)
+      ${stock.columns.join(` VARCHAR(50),
+      `)} VARCHAR(50)
       );`;
     connection.query(create_sql, function (err, results) {
       //create문이 에러면 로그 띄우기
