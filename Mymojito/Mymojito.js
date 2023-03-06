@@ -120,7 +120,7 @@ class Mymojito {
     //to입력을 안했다면 to를 현재 시간으로 설정
     if (to == "") {
       var today = new Date();
-      var hour = today.getHours().toString();
+      var hour = (today.getHours()+9).toString();
       if(hour<10) hour = `0${hour}`;
       var minute = today.getMinutes().toString();
       if(minute<10) minute = `0${minute}`;
